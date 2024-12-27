@@ -64,7 +64,7 @@ if __name__ == '__main__':
     st.title("Engagement Level Classifier (Normalized ICF Demo)")
     select_pages = st.sidebar.selectbox(
         'Pages',
-        ('Home', 'Engagement Classifier')
+        ('Engagement Classifier')
     )
     '''
     if select_pages == "Home":
