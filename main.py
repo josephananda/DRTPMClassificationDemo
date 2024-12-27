@@ -135,11 +135,11 @@ if __name__ == '__main__':
                     final_predictions.append(majority_vote)
 
                 st.markdown(
-                    f'<p style="color:Black;"><b>Model 1 Prediction (Standard ICF - CCE Loss):</b> {engagement_mapping.get(y_pred_lists[1][0], "Unknown")}',
+                    f'<p style="color:Black;"><b>Model 1 Prediction (Standard ICF - CCE Loss):</b> {engagement_mapping.get(y_pred_lists[0][0], "Unknown")}',
                     unsafe_allow_html=True)
 
                 st.markdown(
-                    f'<p style="color:Black;"><b>Model 2 Prediction (Normalized ICF - CCE Loss):</b> {engagement_mapping.get(y_pred_lists[5][0], "Unknown")}',
+                    f'<p style="color:Black;"><b>Model 2 Prediction (Normalized ICF - CCE Loss):</b> {engagement_mapping.get(y_pred_lists[1][0], "Unknown")}',
                     unsafe_allow_html=True)
                 #st.markdown(
                 #    f'<p style="color:Black;"><b>Final Predictions: {engagement_mapping.get(final_predictions[0], "Unknown")}</b>',
