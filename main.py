@@ -106,7 +106,7 @@ if __name__ == '__main__':
             # Check the file type and process accordingly
             if file.type in ["image/png", "image/jpeg"]:
                 image = Image.open(file)
-                show_file.image(image, caption="Uploaded Image", use_column_width=True)
+                show_file.image(image, caption="Uploaded Image", use_container_width=True)
 
                 # Convert image to NumPy array and preprocess
                 image_array = np.array(image)
