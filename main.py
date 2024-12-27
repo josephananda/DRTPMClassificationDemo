@@ -91,11 +91,7 @@ if __name__ == '__main__':
         if not file:
             show_file.info("Please upload a file : {} ".format(' '.join(["csv", "png", "jpg"])))
 
-        classifier_1 = 0
         classifier_2 = 0
-        classifier_3 = 0
-        classifier_4 = 0
-        classifier_5 = 0
         classifier_6 = 0
 
         engagement_mapping = {
