@@ -64,18 +64,18 @@ if __name__ == '__main__':
     st.title("Engagement Level Classifier (Normalized ICF Demo)")
     select_pages = st.sidebar.selectbox(
         'Pages',
-        ('Engagement Classifier')
+        ('Engagement Classifier', 'Other')
     )
-    '''
-    if select_pages == "Home":
+
+    if select_pages == "Other":
         st.subheader("About This Project")
-        st.markdown('<p style="color:Black;"></p>', unsafe_allow_html = True)
+        st.markdown('<p style="color:Black;">Updated Soon</p>', unsafe_allow_html = True)
         st.text("")
         st.markdown('<p style="color:Black;"></p>', unsafe_allow_html = True)
         st.text("")
         st.markdown('<p style="color:Black;"></p>', unsafe_allow_html=True)
         st.markdown('<p style="color:Black;"><b></b></p>', unsafe_allow_html=True)
-    '''
+
 
     if select_pages == "Engagement Classifier":
         # the following lines create text boxes in which the user can enter
